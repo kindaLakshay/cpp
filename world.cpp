@@ -1,16 +1,15 @@
-#include <iostream>
-#include <vector>
-#include <string>
+// 
 
+#include<iostream>
 using namespace std;
 
-int main()
-{
-    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+int main(){
+    int n, sum = 0;
+    n = 10;
 
-    for (const string& word : msg)
+    for (int i = 0; i <= n; i++)
     {
-        cout << word << " ";
+        sum += i;
     }
-    cout << endl;
+    cout<<sum<<endl;    
 }
