@@ -1,0 +1,1 @@
+// wap to perform push and pop of stack using linkedlist
